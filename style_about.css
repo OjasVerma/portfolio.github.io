@@ -1,0 +1,70 @@
+.about{
+    width: 98vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+.about .left{
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: 'Hind Madurai', sans-serif;
+    
+}
+.about .right{
+    width: 40vw;
+    height: 70vh;
+}
+.about .right img{
+    width: 40vw;
+    height: 70vh;
+}
+h3{
+    width: 40vw;
+    text-align: flex-start;
+}
+.left img{
+    width: 2vw;
+    padding-right: 15px;
+}
+@media (max-width:570px){
+    .about{
+        flex-direction: column;
+        height: 120vh;
+    }
+    .left,.right{
+        width: 100vw;
+    }
+    .about .right img{
+        width: 100vw;
+        height: 70vh;
+    }
+    h3{
+        width: 70vw;
+        text-align: flex-start;
+    }
+    .about .left{
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-evenly;
+        
+    }
+    .left img{
+        width: 5vw;
+        padding-right: 5px;
+    }
+}
+@media (max-width:300px){
+    .about{
+        margin-top: 20vh;
+    }
+    .header{
+        margin-top: 140px;
+    }
+}

@@ -1,0 +1,60 @@
+.contact{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif
+   
+}
+.contact h1{
+    width: 100vw;
+    text-align: center;
+
+}
+.contact .media{
+    margin-top: 100px;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20vh;
+}
+#li{
+    width: 10vw;
+    height: 20vh;
+    background-image: url(linkedin.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+#ma{
+    width: 10vw;
+    height: 20vh;
+    background-image: url(mail.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width:800px){
+    .contact .media{
+        width: 90vw;
+        height: 40vh;
+    }
+    #li,#ma{
+        width: 30vw;
+        height: 30vh;
+    }
+}
+@media (max-width:450px){
+    .contact .media{
+        width: 90vw;
+        height: 80vh;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #li,#ma{
+        width: 60vw;
+        height: 30vh;
+    }
+}
